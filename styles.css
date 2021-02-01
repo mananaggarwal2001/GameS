@@ -1,0 +1,311 @@
+body{
+  background-image: url("Images/stars.jpg");
+}
+.simonGame{
+  color: white;
+  text-align: center;
+  font-size: 7rem;
+  font-family: 'Lobster',cursive;
+  border-style: solid;
+  border-color: white;
+  border-width: 1rem;
+  width: 50%;
+  position: relative;
+  left:30rem;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #a6a6a6);
+  background-image: -moz-linear-gradient(top, #3498db, #a6a6a6);
+  background-image: -ms-linear-gradient(top, #3498db, #a6a6a6);
+  background-image: -o-linear-gradient(top, #3498db, #a6a6a6);
+  background-image: linear-gradient(to bottom, #3498db, #a6a6a6);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 5px 4px 6px #fcfcfc;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 53px;
+  padding: 10px 20px 10px 20px;
+  border: dotted #ffffff 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #dce6ed);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #dce6ed);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #dce6ed);
+  background-image: -o-linear-gradient(top, #3cb0fd, #dce6ed);
+  background-image: linear-gradient(to bottom, #3cb0fd, #dce6ed);
+  text-decoration: none;
+}
+
+.clicklabel{
+ color: white;
+ width:50%;
+ font-family: 'Hanalei',cursive;
+ font-size: 4rem;
+}
+.labelbutton{
+  position: relative;
+  left:48rem;
+  top:24rem;
+  color: white;
+  display: inline-block;
+  clear: bottom;
+  height:10rem;
+  width: 50%;
+}
+
+
+
+
+.Ruleslist{
+  color: white;
+  display: inline-block;
+  width:50%;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  font-family: 'Dancing',cursive;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  position: relative;
+  left:6rem;
+}
+.playbutton{
+  position: relative;
+  top:7rem;
+  right:35rem;
+}
+
+.ruleHeadingClass{
+  color: white;
+  display: inline-block;
+  width:20%;
+  font-size: 5rem;
+  position: relative;
+  bottom:25rem;
+  left:11rem;
+}
+.listitem{
+  margin-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom:1rem;
+}
+
+.redDiv{
+  display: inline-block;
+  background-color: red;
+  border-style: solid;
+  border-color: white;
+  border-width: .5rem;
+  width: 20rem;
+  height:20rem;
+  text-align: center;
+  position: relative;
+  color: white;
+  left:34.5rem;
+  padding-top: 7rem;
+  font-family: 'Hanalei Fill',cursive;
+}
+.blueDiv{
+  display: inline-block;
+  background-color: blue;
+  border-style: solid;
+  border-color: white;
+  border-width: .5rem;
+  width: 20rem;
+  height:20rem;
+  text-align: center;
+  position: relative;
+  left:35rem;
+  padding-top: 7rem;
+  top:0.2px;
+  font-family: 'Hanalei Fill',cursive;
+    color: white;
+
+
+}
+.yellowDiv{
+  display: inline-block;
+  background-color: #ffd56b;
+  border-style: solid;
+  border-color: white;
+  border-width: .5rem;
+  width: 20rem;
+  height:20rem;
+  text-align: center;
+  position: relative;
+  top:21rem;
+  right: 6.05rem;
+  padding-top: 7rem;
+  font-family: 'Hanalei Fill',cursive;
+    color: white;
+
+}
+.greenDiv{
+  display: inline-block;
+  background-color: green;
+  border-style: solid;
+  border-color: white;
+  border-width: .5rem;
+  width: 20rem;
+  height:20rem;
+  text-align: center;
+  position: relative;
+  top:21rem;
+  right:5.55rem;
+  padding-top: 7rem;
+  font-family: 'Hanalei Fill',cursive;
+    color: white;
+}
+.groupBlocks{
+  display: inline-block;
+  position: relative;
+  right:17rem;
+  top:10rem;
+  height: 40rem;
+}
+
+.startbutton{
+  position: absolute;
+  top:65rem;
+  right:49.5rem;
+
+}
+.startgame{
+  display: inline-block;
+  color: white;
+  position: relative;
+  bottom:5rem;
+  left:48rem;
+  font-size: 3.5rem;
+  font-family: 'Hanalei Fill',cursive;
+}
+
+.icon{
+  position: relative;
+  right: 14.5rem;
+  top:5rem;
+  visibility: visible;
+}
+
+
+
+.button{
+ position: relative;
+ top:35rem;
+ right:7.5rem;
+ z-index: -1;
+}
+
+.handruleButton{
+  color: white;
+  position: relative;
+  right: 37rem;
+  top:8.5rem;
+}
+
+@media(max-width:1002px){
+  .startbutton{
+    position:relative;
+    top:14rem;
+    left:30rem;
+
+  }
+
+  .greenDiv{
+    background-color: green;
+    position:relative;
+    left:55.3rem;
+    top:1rem;
+  }
+
+  .startgame{
+    position: relative;
+    top:4rem;
+    left:25rem;
+  }
+
+  .simonGame{
+    position: relative;
+    left:22rem;
+  }
+
+  .ruleHeadingClass{
+    color: white;
+    display: inline-block;
+    width:25%;
+    font-size: 4rem;
+    position: relative;
+    bottom:43.9rem;
+    left:6.5rem;
+  }
+  .gameButton{
+    position: relative;
+    left:30.5rem;
+    top:1rem;
+  }
+
+  .rulelistButton{
+    position: relative;
+    right:23rem;
+  }
+
+ .indexButton{
+  position:relative;
+  left:20rem;
+
+  }
+
+  .clicklabel{
+  font-size: 5rem;
+  position: relative;
+  right:25rem;
+  width: 40rem;
+  }
+
+  .indexHandbutton{
+    position: relative;
+    top:6rem;
+    right: 18rem;
+  }
+
+  .indexButton{
+   position: relative;
+   left:1.3rem;
+  }
+
+}
+
+
+
+
+@media (min-width:1005px) and (max-width: 1293px){
+
+   .greenDiv{
+    background-color: green;
+    position:relative;
+    top:1rem;
+    bottom:20rem;
+    left:55.3rem;
+
+  }
+
+  .startbutton{
+    position:relative;
+    top:14rem;
+    left:30rem;
+
+  }
+
+  .startgame{
+    position: relative;
+    top:4rem;
+    left:25rem;
+  }
+}
